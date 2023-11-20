@@ -13,7 +13,7 @@
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 24px;
 }
 
 h2 {
@@ -35,7 +35,7 @@ p {
 
 .grid-container {
     display: grid;
-    margin-top: -30px;
+    margin-top: -1.5%;
     padding-bottom: 20px;
     grid-template-columns: auto auto auto auto;
     /*align-items: stretch;*/
@@ -119,7 +119,7 @@ p {
 .product-grid-container {
     display: grid;
     margin-top: -10%;
-    padding: 15%;
+    padding: 15vw;
     grid-template-columns: auto auto;
     /*align-items: stretch;*/
     vertical-align: middle;
