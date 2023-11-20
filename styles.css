@@ -12,12 +12,16 @@
     /*position: fixed;*/
 }
 
-h2 {
-    font-size: 32px;
+h3 {
+    font-size: 2vw;
 }
 
-h3 {
-    font-size: 20px;
+h2 {
+    font-size: 3vw;
+}
+
+p {
+    padding-right: 15px;
 }
 
 .examples {
@@ -61,12 +65,9 @@ h3 {
     border-radius: 0px 0px 20px 20px;
 }
 
-p {
-    padding-right: 15px;
-}
-
 .center-text {
     text-align: center;
+    font-size: 1.75vw;
 }
 
 .center-image {
