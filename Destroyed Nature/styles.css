@@ -1,0 +1,133 @@
+
+.top-banner {
+    background-color: rgb(1 171 85);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.banner-image {
+    max-width: 50%;
+    max-height: auto;
+    margin-left: 0%;
+    padding: 15px;
+    /*position: fixed;*/
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.examples {
+    background-color: #FFFFFF;
+}
+
+.farm-image {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.grid-container {
+    display: grid;
+    margin-top: -30px;
+    padding-bottom: 20px;
+    grid-template-columns: auto auto auto auto;
+    /*align-items: stretch;*/
+    vertical-align: middle;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.grid-container-text {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*align-items: stretch;*/
+    vertical-align: middle;
+    text-align: left;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.drop-shadow {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-content {
+    background-color: #d3d3d3;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+p {
+    padding-right: 15px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.introduction {
+    background-color: #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-overlay {
+    top: 50%;
+    align-items: center;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+.central-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.animate {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    animation-name: animate-bottom;
+    animation-duration: 1s
+}
+
+@keyframes animate-bottom { 
+    from { bottom : -200px; opacity : 0 } 
+    to { bottom : 0; opacity : 1 }
+}
+
+.product-grid-container {
+    display: grid;
+    margin-top: -10%;
+    padding: 15%;
+    grid-template-columns: auto auto;
+    /*align-items: stretch;*/
+    vertical-align: middle;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.gray-background {
+    background-color: #d3d3d3;
+    border: 2px solid white;
+    border-radius: 10px;
+}
