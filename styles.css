@@ -16,6 +16,10 @@
     /*position: fixed;*/
 }
 
+h5 {
+    font-size: 5vw;
+}
+
 h4 {
     font-size: 16px;
 }
@@ -34,6 +38,13 @@ h1 {
 
 p {
     padding-right: 15px;
+}
+
+mark {
+    background-color: rgba(50, 50, 50, 0.80);
+    border: #FFFFFF solid 2px;
+    border-radius: 10px;
+    color: #FFFFFF;
 }
 
 .examples {
