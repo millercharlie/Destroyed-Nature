@@ -17,7 +17,7 @@
 }
 
 h5 {
-    font-size: 5vw;
+    font-size: 60px;
 }
 
 h4 {
@@ -41,7 +41,7 @@ p {
 }
 
 mark {
-    background-color: rgba(50, 50, 50, 0.80);
+    background-color: rgba(100, 100, 100, 0.80);
     border: #FFFFFF solid 2px;
     border-radius: 10px;
     color: #FFFFFF;
@@ -52,7 +52,7 @@ mark {
 }
 
 .farm-image {
-    width: 100%;
+    width: auto;
     border-radius: 20px 20px 0px 0px;
 }
 
